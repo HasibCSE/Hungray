@@ -1,0 +1,35 @@
+.nice-number {
+  display: inline-flex;
+  justify-content: stretch;
+}
+
+.nice-number input {
+  vertical-align: middle;
+  -moz-appearance: textfield;
+  box-sizing: content-box;
+  margin: 0;
+  text-align: center;
+  min-width: 30px;
+  margin-right: none;
+}
+
+.nice-number input::-webkit-inner-spin-button,
+.nice-number input::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+  padding: 0px 8px;
+  border-radius: 3px;
+}
+.nice-number [type="reset"], [type="submit"], button, html [type="button"]{
+	 -webkit-appearance: button;
+    border: transparent;
+    padding: 0px 8px;
+    border-radius: 3px;
+    margin: 3px;
+    cursor: pointer;
+}
+.nice-number button:hover{
+	background-color: #46D145 !important;
+	transition: .4s;
+	color: #fff;
+}

@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Montserrat:400,500,600|Poppins:300,400,500,600,700&display=swap');
+
+
+*,
+*:after,
+*:before {
+	box-sizing: inherit;
+}
+
+body,
+html {
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: $them-font;
+	font-weight: normal;
+	font-style: normal;
+	background-color: $white-color;
+	position: relative;
+}
+
+i,
+fab,
+fas,
+far {
+	font-family: FontAwesome;
+}
+
+a {
+	color: #fff;
+	text-decoration: none
+}
+
+a:active,
+a:visited,
+a:hover {
+	color: $hover-color;
+	text-decoration: none;
+	outline: none;
+}
+
+a:focus,
+input:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+dl,
+ol,
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0
+}
+
+hr {
+	border: 0;
+	border-top: 0.1rem solid #f4f5f6;
+	margin: 3.0rem 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+	letter-spacing: 1px;
+	line-height: 30px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 50px;
+}
+
+h3 {
+	font-size: 40px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h6 {
+	font-size: 18px;
+}
+
+p {
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 30px;
+}
+
+img {
+	max-width: 100%
+}
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: table
+}

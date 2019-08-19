@@ -1,0 +1,150 @@
+
+
+/*	 off-canves-menu
+	full navbar css code
+=========================================
+*/
+
+
+#navbar {
+	background-color: $nav-bg;
+	height: 60px;
+}
+/* === Logo === */
+span.logo {
+	float: left;
+	line-height: 50px;
+	font-size: 26px;
+	color: $them-color;
+	font-weight: bold;
+}
+
+/* ==== main-menu ==== */
+.menu {
+	margin: 0;
+	padding: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	float: right;
+	line-height: 56px;
+}
+
+.menu li {
+	list-style-type: none;
+	position: relative;
+}
+
+.menu li a {
+	font-family: $nav-font;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+	padding: 0px 18px;
+	text-transform: uppercase;
+	display: block;
+	text-decoration: none;
+	border-bottom: 4px solid transparent;
+	@include transtion-time(.3s);
+}
+.menu li a:hover {
+	border-bottom: 4px solid $them-color !important;
+	color: #fff;
+}
+
+
+/*  Nav-rigth-icon
+==========================
+*/
+.nav-icon {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin-top: 12px;
+}
+
+.nav-icon i {
+	width: 35px;
+	height: 35px;
+	background-color: $them-color;
+	text-align: center;
+	line-height: 35px;
+	border-radius: 50px;
+	color: $white-color;
+	font-size: 16px;
+}
+/* ==== Hide-show-icon ==== */
+.show-menu-btn,
+.hide-menu-btn {
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+	font-size: 30px;
+	cursor: pointer;
+	display: none;
+}
+
+.menu a:hover,
+.show-menu-btn,
+.hide-menu-btn {
+	color: #fff;
+}
+
+.show-menu-btn {
+	float: right;
+}
+
+.show-menu-btn i {
+	line-height: 50px;
+}
+
+@media screen and (max-width:991px) {
+
+	.show-menu-btn,
+	.hide-menu-btn {
+		display: block;
+	}
+
+	/* === menu === */
+	.menu {
+		position: fixed;
+		width: 50%;
+		height: 100vh;
+		background-color: #333;
+		text-align: center;
+		padding: 80px 0px;
+		line-height: normal;
+		-webkit-transition: 0.7s;
+		-o-transition: 0.7s;
+		transition: 0.7s;
+		left: -100%;
+		display: block;
+		top: 0;
+	}.menu.active{
+		left: 0;
+	}
+
+	.menu li a {
+		padding: 20px 0px;
+		border-bottom: 0 !important;
+		font-size: 14px;
+	}
+	.menu li a:hover {
+		border-bottom: 0 !important;
+		color: $them-color;
+	}
+	/* == menu-hide-icon == */
+	.hide-menu-btn {
+		position: absolute;
+		top: -60px;
+		right: 40px;
+		overflow: hidden;
+	}
+
+}

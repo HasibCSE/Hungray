@@ -1,0 +1,15 @@
+//mixin
+
+@mixin transtion-time($total-time) {
+	transition: all $total-time;
+	-webkit-transition: all $total-time;
+	-moz-transition: all $total-time;
+	-o-transition: all $total-time;
+	
+}
+@mixin transform-rot($deg) {
+	transform: rotate $deg;
+	-webkit-transform: rotate $deg;
+	-ms-transform: rotate $deg;
+	
+}
