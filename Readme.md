@@ -1,5 +1,6 @@
 
-Description: Simple - Corporate Business HTML5, CSS3, BOOTSTRAP4, JQUERY, SCSS Template
+Description: Simple - Restaurants landing web page using by HTML5, CSS3, BOOTSTRAP4, JQUERY, SCSS, Responsive Template,
+and code Valid
 
 	CSS INDES
 =====================
