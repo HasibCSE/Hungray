@@ -1,12 +1,5 @@
-/*
-====================================
-Template Name: Sample - Corparate Business
-Template URL: site.com
+
 Description: Simple - Corporate Business HTML5, CSS3, BOOTSTRAP4, JQUERY, SCSS Template
-Author: Hasib Ullah
-Author URL: site.com
-Version: 1.0
-====================================
 
 	CSS INDES
 =====================
@@ -21,5 +14,3 @@ Version: 1.0
 08. About Us
 09. Our Store
 10. Footer
-=====================================
-*/
